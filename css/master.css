@@ -1,0 +1,41 @@
+
+section {
+    margin: auto;
+    display: flex;
+    width: 50%;
+}
+
+div {
+    width: 14%;
+    border-radius: 50%;
+    background-color: lightblue;
+    height: ;
+}
+
+ul {
+    padding: 0.5em;
+    margin: auto;
+    width: 50%;
+    height: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: darkblue;
+    justify-content: center;
+
+}
+
+li {
+    width: 14%;
+    border-radius: 50%;
+    background-color: white;
+    margin: 1px;
+}
+
+li.yellow {
+    background-color: yellow;
+}
+
+li.red {
+    background-color: red;
+}
