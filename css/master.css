@@ -1,41 +1,38 @@
-
-section {
+table {
     margin: auto;
-    display: flex;
+    margin-top: 5em;
     width: 50%;
-}
-
-div {
-    width: 14%;
-    border-radius: 50%;
-    background-color: lightblue;
-    height: ;
-}
-
-ul {
-    padding: 0.5em;
-    margin: auto;
-    width: 50%;
-    height: 50em;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
     background-color: darkblue;
-    justify-content: center;
-
+    border-spacing: 10px;
 }
 
-li {
+thead {
+    background-color: white;
+}
+
+th {
     width: 14%;
     border-radius: 50%;
+    height: 1em;
     background-color: white;
-    margin: 1px;
 }
 
-li.yellow {
+tr {
+    margin: 0;
+    border-collapse: collapse;
+}
+
+td {
+    width: 14%;
+    border-radius: 50%;
+    height: 4em;
+    background-color: #fff;
+}
+
+td.yellow {
     background-color: yellow;
 }
 
-li.red {
+td.red {
     background-color: red;
 }
