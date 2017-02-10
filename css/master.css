@@ -34,14 +34,14 @@ td {
 }
 
 td.yellow {
-    background: radial-gradient(rgb(201, 175, 0) 50%, rgb(251, 255, 43) 55%, rgb(254, 240, 118) )
+    background: radial-gradient(rgb(201, 175, 0) 50%, rgb(251, 255, 43) 55%, rgb(254, 240, 118));
 }
 
     td.red {
-        background: radial-gradient(rgb(201, 0, 0) 50%, rgb(255, 43, 43) 55%, rgb(254, 118, 118) )
+        background: radial-gradient(rgb(201, 0, 0) 50%, rgb(255, 43, 43) 55%, rgb(254, 118, 118));
     }
-    ,
-    button ,{
+
+    button {
         background-color: rgb(0, 117, 255);
         color: white;
         padding: 1em;
