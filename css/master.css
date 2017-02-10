@@ -1,8 +1,11 @@
+body {
+    text-align: center;
+}
+
 table {
-    margin: auto;
-    margin-top: 5em;
+    margin: 5em auto;
     width: 50%;
-    background-color: darkblue;
+    background-color: rgb(38, 0, 117);
     border-spacing: 10px;
 }
 
@@ -27,13 +30,21 @@ td {
     width: 14%;
     border-radius: 50%;
     height: 4em;
-    background-color: #fff;
+    background-color: lightgrey;
 }
 
 td.yellow {
-    background-color: yellow;
+    background: radial-gradient(rgb(201, 175, 0) 50%, rgb(251, 255, 43) 55%, rgb(254, 240, 118) )
 }
 
-td.red {
-    background-color: red;
-}
+    td.red {
+        background: radial-gradient(rgb(201, 0, 0) 50%, rgb(255, 43, 43) 55%, rgb(254, 118, 118) )
+    }
+    ,
+    button ,{
+        background-color: rgb(0, 117, 255);
+        color: white;
+        padding: 1em;
+        border: none;
+        border-radius: 5px;
+    }

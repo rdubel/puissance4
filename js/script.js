@@ -5,6 +5,7 @@ var slotArray;
 var turn = "r";
 
 
+
 function generateGrid(x, y) {
     var tab = [];
     for (var i = 0; i < x; i++) {
@@ -62,6 +63,14 @@ function placeChip(x) {
         }
     }
 
+}
+
+function raz() {
+        var sure = confirm("Are you sure ?");
+        if (sure) {
+            slotArray =  generateGrid(6, 7);
+            print();
+        }
 }
 
 slotArray = generateGrid(6, 7);
